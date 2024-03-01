@@ -28,7 +28,7 @@ update - updates the value of initialized variables and again checks the conditi
 var num = parseInt(readLine().trim());
 
 function printOddNumber(N) {
-    for (var i = 0; i < N; i++) {
+    for (var i = 1; i < N; i++) {
     if (i % 2 !== 0) {
         console.log(i);
     }
